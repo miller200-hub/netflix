@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: black;  
+    color:#fff;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+}
+.container{
+    background-image: linear-gradient( hsla(0, 3%, 6%, 0.882),rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.527)), url("./image/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg"); 
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header{
+    position: relative;
+    height: 98px;
+   
+}
+.header img{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    width: 150px;
+}
+.lang2{
+    margin-left: 950px;
+    padding: 15px;
+    margin-top: 24px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+
+}
+.lang2:hover{
+    border: 2px solid white;
+}
+
+.btn{
+    position: absolute;
+    top: 30%;
+    right:10%;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+   
+
+}
+.showcase{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 200px; 
+
+}
+.showcase h1{
+    font-size: 50px;
+}
+.showcase p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.email{
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.email::placeholder{
+    color: gray;
+    font-size:17px;
+    padding-left: 20px;
+    font-weight: 600;
+
+}
+.login{
+   
+    padding-top: 25px;
+
+}
+
+.btn-xl{
+    
+    font-size: 20px;
+    background: rgb(229, 9, 20);
+    padding: 16px 22px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+    
+    
+}
+.tv-section{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tv img{
+   
+    height:330px;
+    width: 450px;
+    margin-top:52px;
+   
+    margin-right: 60px;
+   
+    
+}
+.tv video{
+    position: absolute;
+    z-index: -1;
+} 
+.tv video{
+    display: flex;
+    height:182px;
+    width: 415px;
+    top: 120px;
+    margin-left: 18px;
+
+}
+.content-1{
+    margin-left: 150px;
+    margin-top: 150px;
+
+}
+.content-1 h1{
+    font-size: 50px;
+}
+.content-1 p{
+    font-size: 24px;
+}
+.mobile-section{
+    
+    position: relative;
+    height: 70vh;
+    width: 100%;
+  
+    
+
+}
+.mobile-section-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.mobile{
+    margin-left: 150px;
+}
+.img-1{
+    height: 300px;
+    width: 450px;
+
+}
+
+.img-1{
+    position: absolute;
+    z-index: -1;
+}
+.img-2{
+    height: 60px;
+    width:60px;
+}
+/* .mobile-box{
+    position: absolute;
+    z-index: -1;
+} */
+.mobile-box{
+   
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 230px;
+    margin-left: 110px;
+    margin-top: 200px;
+    background-color: black;
+    
+
+}
+.t1{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.text{
+    font-size: 35px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.text p{
+    font-size: 25px;
+}
+.seprator{
+    width: 100vw;
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+.watch{
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.system{
+
+    display: flex;
+}
+.system video{
+    position: absolute;
+    z-index: -1;
+}
+.system img{
+    margin-top: 63px;
+    height: 350px;
+    width: 450px;
+    margin-right: 130px;
+}
+.system video{
+    height: 350px;
+    width: 280px;
+    margin-left: 80px;
+}
+.text-2{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 230px;
+
+}
+.text-2 h1{
+    font-size: 50px;
+}
+.text-2 p{
+    font-size: 22px;
+    padding-top: 20px;
+}
+.kids{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    justify-content: space-between;
+}
+.kids img{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.kids-video{
+    font-size: 30px;
+    margin-top:160px ;
+    margin-right: 230px;
+}
+.kids-video h1{
+    font-size: 50px;
+}
+.kids-video p{
+    font-size: 20px;
+}
+.call{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 175px;
+    
+
+}
+.Questions{
+    position: relative;
+    width: 100%;
+    height: 145vh;
+}
+.heading{
+    position: absolutes;
+    font-size: 45px;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+.boxing{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 65%;
+    background-color:rgb(45, 45, 45);
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 40px;
+
+}
+
+.boxing2{
+    display: flex;
+    margin-top: 170px;
+    margin-left: 250px;
+    height: 70px;
+    width: 65%;
+    background-color:rgb(45, 45, 45);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.btn-1{
+    background-color: rgb(45, 45, 45);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.btn-3{
+    font-size: 30px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border: none;
+    padding-right: 20px;
+}
+.boxing p{
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+.boxing2 p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.login-bottom{
+    
+    margin-top: 60px;
+}
+.login-bottom p{
+    font-size: 20px;
+    margin-left:350px ;
+}
+.login-bottom div{
+    margin-left: 400px;
+}
+.footer-section{
+    position: relative;
+}
+.footer-cols{
+   
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+
+.footer-cols ul li a{
+    color: white;
+}
+.footer-cols ul li {
+    list-style: none;
+    line-height: 2;
+}
+.lang{
+    position: absolute;
+    padding: 10px;   
+    margin-left: 178px;
+    top: 72%;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+
+}
+.lang:hover{
+    border: 2px solid white;
+}
+
+.n{
+    position: absolute;
+    margin-left: 178px;
+    top: 86%;
+}
